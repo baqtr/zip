@@ -60,7 +60,7 @@ def receive_text(update: Update, context: CallbackContext) -> None:
         os.remove(f"{file_name}_modified.zip")
 
 def main() -> None:
-    TOKEN = "7017719108:AAFZ8zZgdo75ECJNqd9HurFGQBxqnTGjM6U"
+    TOKEN = "6765671070:AAF-gOtVDtWeKf2DjggQcb8L34OZbGDHAxc"
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
